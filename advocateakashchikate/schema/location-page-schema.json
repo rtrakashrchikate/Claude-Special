@@ -1,0 +1,50 @@
+{
+  "_comment": "Paste this JSON-LD on every location page. Replace AREA_NAME and SLUG.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Attorney", "LegalService"],
+      "@id": "https://advocateakashchikate.com/criminal-lawyer/criminal-lawyer-SLUG-pune/#service",
+      "name": "Criminal Lawyer in AREA_NAME, Pune — Adv. Akash Chikate",
+      "description": "Criminal defence lawyer serving AREA_NAME clients from Shivajinagar office. Available for bail applications, FIR quashing, and criminal defence matters.",
+      "provider": {
+        "@id": "https://advocateakashchikate.com/#attorney"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Pune"},
+        {"@type": "Neighborhood", "name": "AREA_NAME"}
+      ],
+      "serviceType": "Criminal Law",
+      "telephone": "+91-XXXXXXXXXX"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://advocateakashchikate.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Criminal Lawyer Pune", "item": "https://advocateakashchikate.com/criminal-lawyer/"},
+        {"@type": "ListItem", "position": 3, "name": "Criminal Lawyer AREA_NAME", "item": "https://advocateakashchikate.com/criminal-lawyer/criminal-lawyer-SLUG-pune/"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is there a criminal lawyer near AREA_NAME in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Advocate Akash R. Chikate is a criminal defence attorney based in Shivajinagar, Pune — approximately 15–25 minutes from AREA_NAME. He handles bail applications, FIR quashing, criminal appeals, and cybercrime matters for clients across Pune including AREA_NAME. Call or WhatsApp for a free consultation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reach Advocate Akash Chikate's office from AREA_NAME?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The office is located in Shivajinagar, Pune — well connected by auto-rickshaw, cab, and bus from AREA_NAME. Emergency consultations can be conducted by phone or video call. Physical office visits are welcome by appointment."
+          }
+        }
+      ]
+    }
+  ]
+}

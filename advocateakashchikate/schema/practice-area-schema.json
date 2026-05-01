@@ -1,0 +1,102 @@
+{
+  "_comment": "Paste this JSON-LD in a <script type='application/ld+json'> tag on each practice area page. Replace PLACEHOLDERS.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://advocateakashchikate.com/practice-areas/SLUG/#service",
+      "name": "PRACTICE_AREA_NAME",
+      "description": "PRACTICE_AREA_DESCRIPTION",
+      "provider": {
+        "@id": "https://advocateakashchikate.com/#attorney"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "serviceType": "Legal Services"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://advocateakashchikate.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Practice Areas", "item": "https://advocateakashchikate.com/practice-areas/"},
+        {"@type": "ListItem", "position": 3, "name": "PRACTICE_AREA_NAME", "item": "https://advocateakashchikate.com/practice-areas/SLUG/"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "FAQ_QUESTION_1",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FAQ_ANSWER_1"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "FAQ_QUESTION_2",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FAQ_ANSWER_2"
+          }
+        }
+      ]
+    }
+  ],
+
+  "_examples": {
+    "criminal-law": {
+      "name": "Criminal Law Services — Bail, FIR Quashing & Criminal Defence Pune",
+      "description": "Comprehensive criminal defence representation in Pune — bail applications, anticipatory bail, FIR quashing at Bombay High Court, criminal appeals, NDPS and POCSO matters.",
+      "faqs": [
+        {
+          "q": "How quickly can I get bail after arrest in Pune?",
+          "a": "Depending on the offence, bail can be obtained at the police station (bailable offence) within hours, or from the Magistrate's court within 24–48 hours. For non-bailable offences, a sessions court or High Court application may take 3–7 days. Advocate Akash Chikate regularly obtains bail within 48 hours of being retained."
+        },
+        {
+          "q": "What is FIR quashing and who can apply?",
+          "a": "FIR quashing is a legal remedy under Section 528 BNSS (formerly S.482 CrPC) where the Bombay High Court can cancel an FIR if: no cognisable offence is disclosed, the complaint is frivolous or vexatious, the dispute is civil in nature, or the parties have settled. Once quashed, all proceedings including charge sheet and trial are set aside."
+        },
+        {
+          "q": "What is the difference between anticipatory bail and regular bail?",
+          "a": "Anticipatory bail (Section 482 BNSS) is obtained before arrest — it protects you from being taken into custody. Regular bail is applied after you have been arrested. Anticipatory bail is the preferred option when you anticipate arrest and have time to approach the court proactively."
+        }
+      ]
+    },
+    "cybercrime": {
+      "name": "Cybercrime & IT Law — Defence Lawyer Pune",
+      "description": "Defence for cybercrime FIRs, IT Act violations, digital evidence challenges, online fraud cases, and data privacy matters in Pune.",
+      "faqs": [
+        {
+          "q": "I received a cybercrime FIR. What should I do first?",
+          "a": "Do not panic and do not make any statements to police without a lawyer present. Secure all digital devices and do not delete any data. Contact a cybercrime defence lawyer immediately — the first 24–48 hours are critical for evidence preservation and assessing bail options."
+        },
+        {
+          "q": "Can I get bail in a cybercrime case?",
+          "a": "Yes, bail is available in most cybercrime cases. The severity depends on the amount involved and the specific section charged (IT Act vs IPC/BNS). Offences under Section 66 IT Act (hacking) carry up to 3 years — generally bailable. More serious fraud cases may require a sessions court or HC bail application."
+        }
+      ]
+    },
+    "family-law": {
+      "name": "Family Law & Divorce Lawyer Pune — Adv. Akash Chikate",
+      "description": "Expert representation in divorce petitions, child custody, maintenance, domestic violence cases, and matrimonial disputes before Pune Family Court.",
+      "faqs": [
+        {
+          "q": "How long does a divorce take in Pune?",
+          "a": "A mutual consent divorce typically takes 6–18 months in Pune Family Court (6-month cooling-off period + court hearings). A contested divorce can take 3–7 years depending on complexity, disputes over custody/property, and court workload. Advocate Akash Chikate aims to resolve cases efficiently while protecting your interests."
+        },
+        {
+          "q": "Can a husband file for divorce in India?",
+          "a": "Yes. Both husband and wife have equal right to file for divorce under the Hindu Marriage Act, Special Marriage Act, or personal laws. Grounds include cruelty, desertion, adultery, and irretrievable breakdown. Akash represents both parties."
+        },
+        {
+          "q": "What happens to children during a divorce in Pune?",
+          "a": "The Family Court decides custody based on the 'best interests of the child'. Options include sole custody, joint custody, or shared parenting arrangements. Interim custody is typically granted at the first hearing. We fight to protect your parental rights throughout the process."
+        }
+      ]
+    }
+  }
+}

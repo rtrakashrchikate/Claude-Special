@@ -1,0 +1,50 @@
+{
+  "_comment": "Paste this JSON-LD in every blog post. Replace all PLACEHOLDERS.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://advocateakashchikate.com/blog/SLUG/#article",
+      "headline": "ARTICLE_TITLE",
+      "description": "META_DESCRIPTION",
+      "image": "https://advocateakashchikate.com/wp-content/uploads/SLUG-featured.jpg",
+      "datePublished": "YYYY-MM-DD",
+      "dateModified": "YYYY-MM-DD",
+      "author": {
+        "@type": "Person",
+        "@id": "https://advocateakashchikate.com/#attorney",
+        "name": "Advocate Akash R. Chikate",
+        "jobTitle": "Criminal Defence Attorney",
+        "url": "https://advocateakashchikate.com/about/"
+      },
+      "publisher": {
+        "@id": "https://advocateakashchikate.com/#attorney"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://advocateakashchikate.com/blog/SLUG/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://advocateakashchikate.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://advocateakashchikate.com/blog/"},
+        {"@type": "ListItem", "position": 3, "name": "ARTICLE_TITLE", "item": "https://advocateakashchikate.com/blog/SLUG/"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ARTICLE_FAQ_Q1",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ARTICLE_FAQ_A1"
+          }
+        }
+      ]
+    }
+  ]
+}

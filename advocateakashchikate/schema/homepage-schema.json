@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Attorney", "LegalService", "LocalBusiness"],
+      "@id": "https://advocateakashchikate.com/#attorney",
+      "name": "Advocate Akash R. Chikate",
+      "alternateName": "Adv. Akash Chikate",
+      "description": "Criminal defence attorney enrolled at the Bombay High Court with 8+ years of experience in criminal law, bail applications, FIR quashing, cybercrime defence, and family law in Pune, Maharashtra.",
+      "url": "https://advocateakashchikate.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://advocateakashchikate.com/wp-content/uploads/logo.png"
+      },
+      "image": "https://advocateakashchikate.com/wp-content/uploads/akash-chikate-advocate.jpg",
+      "telephone": "+91-XXXXXXXXXX",
+      "email": "contact@advocateakashchikate.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Shivajinagar",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411005",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.5308,
+        "longitude": 73.8475
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Pune"},
+        {"@type": "State", "name": "Maharashtra"}
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
+      "priceRange": "₹₹",
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "Cash, Bank Transfer, UPI",
+      "knowsAbout": [
+        "Criminal Law",
+        "Bail Applications",
+        "Anticipatory Bail",
+        "FIR Quashing",
+        "Criminal Appeals",
+        "Cybercrime Law",
+        "IT Act",
+        "Family Law",
+        "Divorce",
+        "Child Custody",
+        "Domestic Violence",
+        "NDPS Act",
+        "POCSO Act",
+        "Consumer Court",
+        "Cheque Bounce",
+        "Intellectual Property"
+      ],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Bar Enrollment",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Bar Council of Maharashtra and Goa"
+        }
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Bombay High Court Bar Association"
+      },
+      "sameAs": [
+        "https://in.linkedin.com/in/akashchikate",
+        "https://www.facebook.com/advakashchikate/",
+        "https://lawrato.com/advocate-akash-chikate"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://advocateakashchikate.com/#website",
+      "url": "https://advocateakashchikate.com",
+      "name": "Advocate Akash Chikate — Criminal Lawyer Pune",
+      "publisher": {"@id": "https://advocateakashchikate.com/#attorney"},
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://advocateakashchikate.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}

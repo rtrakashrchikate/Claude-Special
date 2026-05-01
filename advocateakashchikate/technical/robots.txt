@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Block admin and system paths
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+Disallow: /?s=
+Disallow: /search/
+Disallow: /tag/
+Disallow: /author/
+Disallow: /cgi-bin/
+
+# Allow important bots explicitly
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://advocateakashchikate.com/sitemap.xml
+Sitemap: https://advocateakashchikate.com/sitemap_index.xml
