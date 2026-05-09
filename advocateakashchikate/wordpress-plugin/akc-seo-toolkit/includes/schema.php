@@ -178,15 +178,20 @@ function akc_build_page_schema() {
 function akc_extract_faq_from_post( $post ) {
     if ( ! $post ) return [];
     $content = $post->post_content;
+    if ( strlen( $content ) < 200 ) return [];
     $items   = [];
 
     // Match patterns: heading starting with Q: followed by paragraph starting with A:
-    preg_match_all(
-        '/<h[23][^>]*>\s*(?:Q:|Q\.)?(?:<strong>)?\s*(.*?)\s*(?:<\/strong>)?\s*<\/h[23]>\s*<p>\s*(?:A:|A\.)?(?:<strong>)?\s*(.*?)\s*(?:<\/strong>)?\s*<\/p>/si',
+    $prev_limit = ini_get('pcre.backtrack_limit');
+    ini_set('pcre.backtrack_limit', 500000);
+    $result = preg_match_all(
+        '/<h[23][^>]*>\s*(?:Q:|Q\.)?(?:<strong>)?\s*([^<]{3,200}?)\s*(?:<\/strong>)?\s*<\/h[23]>\s*<p>\s*(?:A:|A\.)?(?:<strong>)?\s*([^<]{3,500}?)\s*(?:<\/strong>)?\s*<\/p>/si',
         $content,
         $matches,
         PREG_SET_ORDER
     );
+    ini_set('pcre.backtrack_limit', $prev_limit);
+    if ( $result === false ) return [];
 
     foreach ( $matches as $m ) {
         $q = wp_strip_all_tags( $m[1] );

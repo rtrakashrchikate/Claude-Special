@@ -54,15 +54,5 @@ function akc_inject_opengraph() {
         );
     }
 
-    // Viewport (critical for mobile)
-    if ( ! has_action( 'wp_head', '_wp_render_title_tag' ) ) {
-        echo '<meta name="viewport" content="width=device-width, initial-scale=1">' . "\n";
-    }
     echo "\n";
 }
-
-// Ensure viewport is always present (WP adds it in 5.7+ but check anyway)
-add_action( 'wp_head', function () {
-    if ( akc_seo_get('enable_og') !== '1' ) return;
-    echo '<meta name="viewport" content="width=device-width, initial-scale=1">' . "\n";
-}, 0 );
