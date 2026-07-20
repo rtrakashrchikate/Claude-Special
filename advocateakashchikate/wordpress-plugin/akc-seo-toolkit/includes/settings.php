@@ -12,10 +12,11 @@ function akc_seo_defaults() {
         'lawyer_name'  => 'Advocate Akash R. Chikate',
         'site_desc'    => 'Criminal defence attorney enrolled at the Bombay High Court with 8+ years of experience in bail applications, FIR quashing, cybercrime defence, and family law in Pune.',
         'og_image'     => '',
-        'enable_schema'    => '1',
-        'enable_whatsapp'  => '1',
-        'enable_og'        => '1',
-        'enable_robots'    => '1',
+        'enable_schema'     => '1',
+        'enable_whatsapp'   => '1',
+        'enable_og'         => '1',
+        'enable_robots'     => '1',
+        'enable_title_meta' => '1',
     ];
 }
 
@@ -46,7 +47,7 @@ function akc_seo_sanitize( $input ) {
     foreach ( $text_fields as $f ) {
         $clean[ $f ] = sanitize_text_field( $input[ $f ] ?? '' );
     }
-    $toggle_fields = [ 'enable_schema', 'enable_whatsapp', 'enable_og', 'enable_robots' ];
+    $toggle_fields = [ 'enable_schema', 'enable_whatsapp', 'enable_og', 'enable_robots', 'enable_title_meta' ];
     foreach ( $toggle_fields as $f ) {
         $clean[ $f ] = ! empty( $input[ $f ] ) ? '1' : '0';
     }
@@ -134,10 +135,11 @@ function akc_seo_settings_page() {
             <table class="form-table">
                 <?php
                 $features = [
-                    'enable_schema'   => [ 'JSON-LD Schema', 'Injects Attorney + LegalService + FAQPage structured data. Enables rich results in Google.' ],
-                    'enable_whatsapp' => [ 'WhatsApp CTA', 'Floating WhatsApp bubble + sticky mobile bar (Call / WhatsApp / Book buttons).' ],
-                    'enable_og'       => [ 'Open Graph Tags', 'Adds og:title, og:description, og:image for better WhatsApp/LinkedIn/Facebook sharing.' ],
-                    'enable_robots'   => [ 'Robots.txt', 'Adds a clean robots.txt that allows all search engine crawlers while blocking WP admin paths.' ],
+                    'enable_schema'     => [ 'JSON-LD Schema', 'Injects Attorney + LegalService + FAQPage structured data. Enables rich results in Google.' ],
+                    'enable_whatsapp'   => [ 'WhatsApp CTA', 'Floating WhatsApp bubble + sticky mobile bar (Call / WhatsApp / Book buttons).' ],
+                    'enable_og'         => [ 'Open Graph Tags', 'Adds og:title, og:description, og:image for better WhatsApp/LinkedIn/Facebook sharing.' ],
+                    'enable_robots'     => [ 'Robots.txt', 'Adds a clean robots.txt that allows all search engine crawlers while blocking WP admin paths.' ],
+                    'enable_title_meta' => [ 'Title & Meta (fallback)', 'Trims page titles to ≤ 60 chars, injects meta description from excerpt, and adds canonical URL. Auto-disabled when Yoast or RankMath is active.' ],
                 ];
                 foreach ( $features as $key => [ $label, $desc ] ) : ?>
                 <tr>
