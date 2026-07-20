@@ -13,6 +13,17 @@ This guide gives you realistic, honest answers before you take the first step. I
 
 ---
 
+## Divorce in Pune — Key Timelines at a Glance
+
+| Type | Typical Duration | Court |
+|---|---|---|
+| Mutual Consent (with cooling-off) | 7–18 months | Pune Family Court, Shivajinagar |
+| Mutual Consent (cooling-off waived) | 3–6 months | High Court or Family Court |
+| Contested Divorce | 3–7 years | Pune Family Court |
+| NRI Divorce (spouse abroad) | Variable — add 6–18 months for service | Pune Family Court |
+
+---
+
 ## Types of Divorce in India
 
 Before anything else, the law that applies to your divorce depends on how your marriage was solemnised and what religion you and your spouse follow.

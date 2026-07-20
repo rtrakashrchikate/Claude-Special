@@ -156,6 +156,9 @@ A: Under BNSS, police must file a charge sheet within 60 days of arrest for most
 **Q: Can an FIR be quashed in a cybercrime case?**
 A: Yes — but it depends on the facts. If the FIR does not disclose a cognizable offence, if it is motivated by personal or commercial rivalry, or if the facts alleged — even if taken at face value — do not constitute the offence charged, a quashing petition before the Bombay High Court is available under Section 528 BNSS. This is a powerful remedy and should be assessed early, ideally alongside the anticipatory bail strategy.
 
+**Q: Can I be arrested for something I did not personally post — a forwarded message, a meme, or content someone else sent to me?**
+A: Forwarding or sharing content does not automatically make you the author of that content, but it can still attract liability under the BNS or IT Act if the content is found to be defamatory, obscene, or threatening and you shared it knowingly. The key legal questions are whether you knew the nature of the content and whether you intended the communication to reach the complainant. Cases based purely on forwards are generally weaker than cases involving original creation, and this distinction should be made clearly in your defence from the outset.
+
 ---
 
 ## Need Help? Talk to Adv. Akash Chikate
