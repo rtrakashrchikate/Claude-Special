@@ -51,9 +51,9 @@ During investigation, depending on the case, a lawyer may file an anticipatory b
 
 The chargesheet is the document police file in court at the end of their investigation. It sets out the specific allegations, lists the witnesses, attaches the evidence, and formally requests the court to try the accused. This is different from the FIR: the FIR starts the process; the chargesheet formally places a case before the court.
 
-**Deadlines for filing the chargesheet matter enormously.** Under Section 479 BNSS (formerly Section 167(2) CrPC), if the accused is in custody, police must file the chargesheet within 60 days for offences punishable with death, life imprisonment, or imprisonment of 10 years or more. For all other offences, the deadline is 90 days.
+**Deadlines for filing the chargesheet matter enormously.** Under Section 187(3) BNSS (formerly Section 167(2) CrPC), if the accused is in custody, police must file the chargesheet within 90 days for offences punishable with death, life imprisonment, or imprisonment of 10 years or more. For all other offences, the deadline is 60 days.
 
-If police do not file within these deadlines, the accused in custody has an automatic right to bail — called default bail or statutory bail. This right exists regardless of the seriousness of the offence and regardless of whether the court would otherwise grant bail. It is a right, not a request. A separate detailed post on this website covers default bail under Section 479 BNSS in full.
+If police do not file within these deadlines, the accused in custody has an automatic right to bail — called default bail or statutory bail. This right exists regardless of the seriousness of the offence and regardless of whether the court would otherwise grant bail. It is a right, not a request. A separate detailed post on this website covers default bail under Section 187(3) BNSS in full.
 
 **Realistic Pune timeline for chargesheet:** Between two and six months from the FIR, depending on the complexity of the case and the investigating agency's workload.
 

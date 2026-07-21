@@ -1,13 +1,13 @@
 ---
-url: /blog/default-bail-section-479-bnss-pune/
-title: What Is Default Bail in India? How Section 479 BNSS Can Free Someone in Custody in Pune
-meta_description: If your family member has been in jail for 60 or 90 days without a chargesheet in Pune, they may have an automatic right to bail. Learn how default bail works under Section 479 BNSS.
+url: /blog/default-bail-section-187-bnss-pune/
+title: What Is Default Bail in India? How Section 187(3) BNSS Can Free Someone in Custody in Pune
+meta_description: If your family member has been in jail for 60 or 90 days without a chargesheet in Pune, they may have an automatic right to bail. Learn how default bail works under Section 187(3) BNSS.
 category: Criminal Law Guide
-keyword: default bail Section 479 BNSS Pune
+keyword: default bail Section 187 BNSS Pune
 priority: P1
 ---
 
-# What Is Default Bail in India? How Section 479 BNSS Can Free Someone in Custody in Pune
+# What Is Default Bail in India? How Section 187(3) BNSS Can Free Someone in Custody in Pune
 
 If someone you love has been in Yerawada, Pune Camp Jail, or any other jail in Maharashtra for weeks or months — and the police have still not filed a chargesheet — there is a right that may exist that most families never hear about.
 
@@ -43,10 +43,10 @@ The Supreme Court of India has confirmed the nature of this right repeatedly. In
 
 ## The Exact Deadlines You Need to Know
 
-Under Section 479 BNSS, the deadlines are:
+Under Section 187(3) BNSS, the deadlines are:
 
-- **60 days** from the date of arrest, for offences punishable with death, life imprisonment, or imprisonment of ten years or more.
-- **90 days** from the date of arrest, for all other offences.
+- **90 days** from the date of arrest, for offences punishable with death, life imprisonment, or imprisonment of ten years or more.
+- **60 days** from the date of arrest, for all other offences.
 
 Count from the **date of arrest** — not the date the Magistrate first heard the bail application, not the date remand was granted. The clock starts the day the person was taken into custody.
 
@@ -58,7 +58,7 @@ If the 60th or 90th day passes — depending on the offence — and no chargeshe
 
 Here is the fact that makes speed non-negotiable.
 
-The right to default bail disappears the instant the police file the chargesheet — even if it is filed on day 59 of a 60-day deadline. Even if it is filed on the last possible hour. If the chargesheet is filed before the default bail application is moved in court, the right is gone. It cannot be revived.
+The right to default bail disappears the instant the police file the chargesheet — even if it is filed on day 89 of a 90-day deadline. Even if it is filed on the last possible hour. If the chargesheet is filed before the default bail application is moved in court, the right is gone. It cannot be revived.
 
 This is not a technicality. This is the settled legal position. In practice, it means that once you believe the deadline has passed, you must contact a criminal defence lawyer and file the application that same day. Do not wait for a holiday to pass. Do not wait for a hearing that is scheduled for next week. The chargesheet could be filed tonight.
 
@@ -70,7 +70,7 @@ Urgency here is not dramatic language. It is the literal structure of the law.
 
 The accused, or their lawyer on their behalf, files an application before the Magistrate who has jurisdiction over the case — typically the same Magistrate before whom the accused is being produced for remand hearings.
 
-The application states that: the accused has been in custody since a specific date; the offence falls under the 60-day or 90-day category; that deadline has now passed; and no chargesheet has been filed. The accused therefore invokes their right under Section 479 BNSS and requests to be released on bail.
+The application states that: the accused has been in custody since a specific date; the offence falls under the 60-day or 90-day category; that deadline has now passed; and no chargesheet has been filed. The accused therefore invokes their right under Section 187(3) BNSS and requests to be released on bail.
 
 The Magistrate is required to grant this bail if the facts are as stated. It is not a matter of the court's discretion about flight risk, danger to society, or the gravity of the offence. Those considerations apply to regular bail. Default bail is different. The law grants it as a right, and the Magistrate's role is to verify that the deadline has passed and the chargesheet has not been filed.
 
@@ -90,7 +90,7 @@ Do not accept a refusal as the final word without getting a second legal opinion
 
 **NDPS (drug) cases:** Offences under the Narcotic Drugs and Psychotropic Substances Act that carry 10 years or more imprisonment fall under the 60-day deadline. Investigations in NDPS cases often take time because they involve forensic analysis and multiple accused persons. The 60-day deadline is frequently missed. Yet many families in Pune with a member in custody for an NDPS case do not know this right exists.
 
-**Section 498A cases (matrimonial cruelty):** Where the accused is in judicial custody and the investigation drags past 90 days without a chargesheet, default bail applies. These cases sometimes involve complex family disputes where police take time gathering statements.
+**Section 498A cases (matrimonial cruelty):** Section 498A (BNS Section 85) carries a maximum sentence of 3 years — so the 60-day deadline applies. Where the accused is in judicial custody and the investigation drags past 60 days without a chargesheet, default bail applies. These cases sometimes involve complex family disputes where police take time gathering statements. Note: if additional sections carrying 10+ years are charged alongside 498A, the 90-day deadline applies instead.
 
 **Cheating and economic offence cases:** Investigations into financial fraud, property cheating, or corporate disputes frequently take months. Where the accused is in custody and the 60 or 90-day deadline passes, the right to default bail arises.
 
@@ -120,7 +120,7 @@ A family approached us after their son had been in Yerawada for 74 days on an ec
 
 They had not heard of default bail. They did not know the deadline had passed 14 days earlier.
 
-We reviewed the case that evening, confirmed that no chargesheet had been filed, and moved the application before the Magistrate the following morning. The application was based entirely on Section 479 BNSS. The Magistrate granted bail that afternoon. He was home within 48 hours.
+We reviewed the case that evening, confirmed that no chargesheet had been filed, and moved the application before the Magistrate the following morning. The application was based entirely on Section 187(3) BNSS. The Magistrate granted bail that afternoon. He was home within 48 hours.
 
 Fourteen days had already been lost. Not another day could be.
 
@@ -134,7 +134,7 @@ The most reliable way is to have a lawyer check the court record in the relevant
 
 ### Q: Can I apply for default bail if regular bail was already rejected?
 
-Yes. A previous refusal of regular bail has no bearing on a default bail application. They are completely separate legal rights. Regular bail is a matter of the court's discretion; default bail is a statutory right under Section 479 BNSS. The court cannot refuse default bail on the ground that regular bail was denied.
+Yes. A previous refusal of regular bail has no bearing on a default bail application. They are completely separate legal rights. Regular bail is a matter of the court's discretion; default bail is a statutory right under Section 187(3) BNSS. The court cannot refuse default bail on the ground that regular bail was denied.
 
 ### Q: What if the Magistrate says the deadline hasn't passed yet?
 
@@ -142,7 +142,7 @@ Count the days yourself and have your lawyer count them independently. The deadl
 
 ### Q: Does default bail apply in NDPS / drug cases?
 
-Yes. NDPS offences carrying 10 years or more fall under the 60-day deadline under Section 479 BNSS. This is one of the most common situations where default bail becomes available in Pune, precisely because NDPS investigations routinely take more than 60 days. NDPS cases do have special provisions under the NDPS Act that make regular bail harder to obtain — but those provisions do not override the default bail right. The Supreme Court has confirmed that the right under Section 167(2) CrPC (now Section 479 BNSS) applies to NDPS cases.
+Yes. NDPS offences carrying 10 years or more fall under the **90-day** deadline under Section 187(3) BNSS. NDPS investigations routinely take more than 90 days, making this one of the most common situations where default bail becomes available in Pune. NDPS cases do have special provisions under the NDPS Act that make regular bail harder to obtain — but those provisions do not override the default bail right. The Supreme Court has confirmed that the right under Section 167(2) CrPC (now Section 187(3) BNSS) applies to NDPS cases.
 
 ---
 

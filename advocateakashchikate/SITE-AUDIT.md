@@ -61,19 +61,24 @@ A corrected standalone replacement is also in the repo: `advocateakashchikate/la
 
 ---
 
-### 3. Default bail section number — verify urgently
+### 3. Default bail section number — RESOLVED
 
-**Affected page:** `/bail-after-arrest-pune-guide/`  
-**Current content:** "Default Bail under Section 187 BNSS (formerly Section 167 CrPC)"  
+**Confirmed correct provision:** Section 187(3) BNSS (formerly Section 167(2) CrPC) — the 60/90-day chargesheet-timing default bail.
 
-**Potential conflict:** Other blog posts in the content calendar reference "S.479 BNSS" for default bail. These two section numbers cannot both be correct for the same provision.
+**Section 479 BNSS is a completely different provision** — the successor to CrPC S.436A, which gives bail to undertrials who have served half their maximum sentence. It is not the 60/90-day chargesheet default bail.
 
-**What to check:**
-- Open the BNSS text at bnss.gov.in or e-kanoon
-- Find the section that says: "if police fail to file chargesheet within 60 days (non-bailable) or 90 days (serious offences), the accused is entitled to bail"
-- That section number goes on all pages
+**Live site** (`/bail-after-arrest-pune-guide/`) saying "Section 187 BNSS" = **CORRECT**.
 
-The blog post we created at `/blog/default-bail-section-479-bnss-pune/` asserts S.479 BNSS. The live site asserts S.187 BNSS. One of these needs to be corrected.
+**What was fixed in our repo:**
+- `default-bail-section-187-bnss-pune.md` (renamed from 479) — corrected section and 60/90-day deadlines
+- `ndps-arrest-bail-pune.md` — corrected section reference
+- `what-happens-after-fir-pune.md` — corrected section and 60/90-day deadlines
+
+**Confirmed deadlines under S.187(3) BNSS:**
+- **90 days** for offences with death/life/imprisonment ≥10 years
+- **60 days** for all other offences
+
+**Action for live site:** The live page at `/bail-after-arrest-pune-guide/` uses S.187 correctly but should verify the 60/90 day deadlines are stated in the right order (90 days for serious, 60 for others).
 
 ---
 
@@ -174,7 +179,7 @@ These files exist in the repository but are not yet live on the site:
 | blog-posts/ndps-arrest-bail-pune.md | /blog/ndps-arrest-bail-pune/ | Ready |
 | blog-posts/bail-rejected-sessions-court-pune.md | /blog/bail-rejected-sessions-court-pune-what-next/ | Ready |
 | blog-posts/what-happens-after-fir-pune.md | /blog/what-happens-after-fir-filed-pune/ | Ready |
-| blog-posts/default-bail-section-479-bnss-pune.md | /blog/default-bail-section-479-bnss-pune/ | Ready — **verify section number first** |
+| blog-posts/default-bail-section-187-bnss-pune.md | /blog/default-bail-section-187-bnss-pune/ | Ready — corrected: S.187(3) BNSS (not S.479), 60/90 deadlines fixed |
 | blog-posts/business-partner-criminal-complaint-pune.md | /blog/business-partner-criminal-complaint-pune/ | Ready |
 | blog-posts/how-to-choose-criminal-lawyer-pune.md | /blog/how-to-choose-criminal-lawyer-pune/ | Ready |
 | landing-pages/bombay-high-court.md | /bombay-high-court-lawyer-pune/ | Ready — publish FIRST, then redirect old page |

@@ -99,7 +99,7 @@ No single factor guarantees bail. Experienced NDPS defence lawyers build applica
 
 ## Default Bail — A Right You Cannot Afford to Miss
 
-This is one of the most important and most missed rights in NDPS cases. Under **Section 479 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)** — which corresponds to **Section 167(2) of the old Code of Criminal Procedure (CrPC)** — if the police or prosecution fail to file a chargesheet within the prescribed time limit, the accused becomes entitled to bail as a matter of right.
+This is one of the most important and most missed rights in NDPS cases. Under **Section 187(3) of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)** — which corresponds to **Section 167(2) of the old Code of Criminal Procedure (CrPC)** — if the police or prosecution fail to file a chargesheet within the prescribed time limit, the accused becomes entitled to bail as a matter of right.
 
 The time limits are:
 - **60 days** from the date of arrest for offences punishable with less than ten years.
